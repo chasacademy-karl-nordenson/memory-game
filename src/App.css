@@ -1,0 +1,36 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.imageContainer {
+  width: 100vw;
+  height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  
+  }
+  
+
+.memoryImage {
+  width: 100px;
+  height: 100px;
+}
+
+.newGame {
+  width: 6rem;
+  height: 6rem;
+}
+
+
+
+
+
