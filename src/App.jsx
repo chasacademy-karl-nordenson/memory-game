@@ -33,14 +33,14 @@ function App() {
  
         }
 
-        // handle a choice
+        
 
     const handleChoice = (card) => {
       console.log(card)
       card1 ? setCard2(card) : setCard1(card) 
     }
     
-    // compare two selected cards
+    
 
     useEffect(() => {
       if (card1 && card2) {
@@ -63,7 +63,7 @@ function App() {
     }, [card1, card2])
 
       console.log(cards)
-    // reset choices and increase turn
+    
 
     const resetTurn = () => {
       setCard1(null)
